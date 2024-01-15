@@ -15,6 +15,8 @@ final_str = input_str[::-1]
 # Print the reversed string
 print("Reversed Resultant String:", "".join(final_str))
 
+#-------------------------------------------------------------------------------------
+
 # Program 2
 num1 = float(input("Enter first number: ")) # user input
 num2 = float(input("Enter second number: ")) # user input
@@ -25,6 +27,8 @@ print("Subtraction: ",num1 - num2) # Subtraction
 print("Multiplication: ",num1 * num2) # Multiplication
 print("Division: ",num1 / num2) # simple Division
 
+#-------------------------------------------------------------------------------------
+
 # Program 3
 # Enter the sentence from the user
 sentence = input("Enter a sentence: ")
@@ -34,6 +38,8 @@ update_sentence = sentence.replace('python', 'pythons')
 
 # Print the updated sentence
 print("Modified Sentence:", update_sentence)
+
+#-------------------------------------------------------------------------------------
 
 # Program 4
  # Accept the class score from the user
