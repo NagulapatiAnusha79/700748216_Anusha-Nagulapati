@@ -6,7 +6,7 @@ input_str = list(input("Enter the string: "))
 if len(input_str) >= 4:
     del input_str[0]
     del input_str[-2:]
-else:f
+else :
     print("Input string should have at least 4 characters.")
 
 # Reverse the resultant string
