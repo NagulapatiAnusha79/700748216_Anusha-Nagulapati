@@ -20,6 +20,10 @@ print("full Name:",full_name)
 output = string_alter(full_name)
 print("output:",output)
 
+
+#---------------------------------------------------------------------------------------
+
+
 #PROGRAM2
 f = open("Sample_input.txt","w")
 f.write("Python Course\n")
@@ -57,6 +61,9 @@ with open('Sample_output.txt', 'w') as output_file:
     output_file.write("Word_Count:\n")
     for word, count in Counter(word for wc in wordcount_each_line for word in wc).items():
         output_file.write(f"{word}: {count}\n")
+
+
+#---------------------------------------------------------------------------------------
 
 #PROGRAM 3
 # code below is the conversion of heights from inches to cms
